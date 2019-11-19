@@ -1,9 +1,7 @@
-#include <iostream>
-#include <cmath>
+#include <bits/stdc++.h>
 using namespace std;
 int main(){
-    int a=200,b=300,c,d;
-    cin>>c>>d;
-    cout<<(a*(c/1000))+(b*(d/1000));
-    return 0;
+	float a, b;
+	cin>>a>>b;
+	cout<<"a)"<<a*0.3+b*0.4<<endl<<"b)"<<(2*b+a*1.8)*3;
 }
